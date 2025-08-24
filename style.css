@@ -1,44 +1,97 @@
+*{
+  font-family: "Karma", sans-serif;
+  font-weight: 100;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+   margin: 0px; 
+    padding: 10px 50px;     /*20px- for top and bottom , 50px- for left and right*/
+    position: fixed; 
+     top: 0;                   
+  left: 0;
+  width: 90%;  
+   background-color: white;
+    border-bottom: 1px solid #ccc;
+}
 
 
-#id1{
-    display: flex;
-    justify-content: space-around;
-    font-size: 24px;
-    padding: 0px;
-    margin-top: 20px
+.class1 img{
+  height: 460px;
+
 }
 
 .class1{
-    display: flex;
-    text-align: center;
-    margin-top: 30px;
-    margin-left: 200px;
-    margin-right: 200px;
-    
-    
-    
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  margin: 60px;
+
 }
 
-.class1 img{
-    height: 300px;
-    width: 230px;
-   
-    
+.section1{
+  margin: 50px;
+  text-align: center;
+  padding-top: 10px;
 }
 
 .class2{
-    width: 230px;
-    margin-left: 35px;
+  width: 300px;
 }
 
-.class3{
-    margin-top: 50px;
-    text-align: center;
+.button{
+  text-align: center;
+  border-bottom: 1px solid black;
+  padding-bottom: 70px;
+  margin: 100px;
 }
 
-.class4{
-    text-align: center;
-     margin-left: 200px;
-    margin-right: 200px;
+button:hover{
+  background-color: black;
+  color: white;
+}
+
+.section2{
+  text-align: center;
+  margin: 100px;
+  border-bottom: 1px solid black;
+  padding-bottom: 70px;
+}
+
+footer{
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid black; */
+  margin: 100px;
+}
+
+.small-image img{
+  height: 50px;
+}
+
+.small-image{
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  padding-top: 0px;
+  border-bottom: 1px solid black;
+}
+
+.small-image div{
+  margin-left: 10px;
+}
+
+footer .f1{
+  /* border: 1px solid orangered; */
+  width: 383px;
+}
+
+.small-image:hover{
+  background-color: rgb(183, 183, 183);
+  color: white;
+}
+
+.f1 button{
+  margin: 10px;
 }
 
